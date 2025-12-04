@@ -1,0 +1,46 @@
+s={1,3,2}
+print(s)
+print (type(s)) 
+s=set([1,2,2,3]) 
+print(s)
+s=set()
+print(type(s))
+s. add(2)
+print(s)
+s. update([2,5,6])
+print(s)
+s.update([5, 6,1],{10,7,9}) 
+print(s) 
+s. discard(6)
+print(s)
+s.remove(2)
+print(s)
+s={1,2,3,4,5,6,7}
+s.pop()
+print(s)
+s.clear()
+print(s)
+set1={1,2,3,4,5,6,7}
+set2={4,5,9,8}
+print(set1|set2) 
+print(set1.intersection(set2)) 
+print(set1&set2) 
+print(set1-set2) 
+print(set1.difference(set2)) 
+print(set1^set2)
+print(set1.symmetric_difference(set2))
+x={"a", "b"}
+y={"a"}
+print("set'x'is subset of'y'?",x.issubset(y))
+print("set'y'is subset of'x'?",y.issubset(x))
+set1=frozenset([1,2,3,4])
+set2=frozenset([3,4,5,6])
+print(set1|set2) 
+print(set1.intersection(set2)) 
+print(set1&set2) 
+print(set1-set2) 
+print(set1.difference(set2)) 
+print(set1^set2)
+print(set1.symmetric_difference(set2))
+words=["steal","least","stale","tales"]
+    
